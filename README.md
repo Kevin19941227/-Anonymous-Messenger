@@ -1,73 +1,75 @@
 # 無名信使 Anonymous Messenger
 
-A PHP + MySQL web project focused on anonymous emotional sharing and interaction.
+一個以匿名情感交流為核心的 PHP + MySQL 網站專案。
 
-## Introduction
-**無名信使** 是一個以匿名信件交流為核心的網站專案。  
-使用者可以在平台上分享自己的心情、接收陌生人的故事、進行回覆互動，並瀏覽心理協助資源。  
-本專案希望提供一個較安全、柔和、低壓力的文字交流空間，讓人們能夠說出平常不容易表達的感受。
+## 專案簡介
+**無名信使** 是一個以匿名信件交流為核心概念的網站專案。  
+使用者可以在平台上分享自己的心情、接收陌生人的故事、進行文字回覆互動，並瀏覽心理協助相關資源。  
+本專案希望提供一個相對安全、柔和、低壓力的文字交流空間，讓人們能夠說出平常不容易表達的感受。
 
-## Project Features
-- User registration and login system
-- Anonymous story posting
-- Random story receiving mechanism
-- Reply interaction system
-- Like / feedback mechanism
-- Psychological resource page
-- Story status management with MySQL database
+## 專案功能
+- 使用者註冊與登入系統
+- 匿名故事／信件發送功能
+- 隨機接收他人故事機制
+- 回覆互動系統
+- 按讚／回饋機制
+- 心理資源頁面
+- 使用 MySQL 進行故事狀態與資料管理
 
-## Tech Stack
+## 使用技術
 - PHP
 - MySQL
 - HTML
 - CSS
 - JavaScript
-- XAMPP / phpMyAdmin
+- XAMPP
+- phpMyAdmin
 
-## Database Structure
-Main tables used in this project:
+## 資料庫結構
+本專案主要使用的資料表包括：
 - `users`
 - `stories`
 - `replies`
 - `likes`
 
-## Project Goal
-This project was created for a database/web system course.  
-The main concept is to build an anonymous message-sharing platform where users can express emotions, read stories from strangers, and interact through text in a more comfortable way.
+## 專案目標
+本專案為資料庫 / 網頁系統相關課程的實作作品。  
+主要目標是打造一個匿名訊息分享平台，讓使用者能夠抒發情緒、閱讀陌生人的故事，並透過文字進行互動，在較舒適的環境中獲得交流與陪伴感。
 
-## My Contribution
-You can adjust this section based on your actual work:
+## 我的負責內容
+這個區塊可以依照你的實際分工再調整，例如：
 
-- Participated in website development and system integration
-- Assisted with database-related functionality
-- Implemented or helped organize user interaction flow
-- Worked on front-end / back-end page integration
-- Supported testing and feature adjustment
+- 參與網站功能開發與系統整合
+- 協助資料庫功能設計與串接
+- 實作或整理使用者互動流程
+- 負責前後端頁面整合
+- 進行功能測試與細節調整
 
-## Pages / Core Modules
-- Home page
-- Login / Register
-- Send message page
-- Receive message page
-- Story / warm story section
-- Psychological resources page
-- About page
+## 頁面 / 核心模組
+- 首頁
+- 登入 / 註冊頁面
+- 發送訊息頁面
+- 接收訊息頁面
+- 故事 / 暖心故事區
+- 心理資源頁面
+- 關於我們頁面
 
-## How to Run
-1. Install **XAMPP**
-2. Put the project folder into `htdocs`
-3. Start **Apache** and **MySQL**
-4. Import the SQL file into phpMyAdmin
-5. Update database connection settings in `db_connect.php`
-6. Open the project in your browser
+## 執行方式
+1. 安裝 **XAMPP**
+2. 將專案資料夾放入 `htdocs`
+3. 啟動 **Apache** 與 **MySQL**
+4. 在 phpMyAdmin 匯入專案使用的 SQL 檔案
+5. 更新 `db_connect.php` 中的資料庫連線設定
+6. 於瀏覽器開啟專案網址
 
-## Notes
-This project is intended for educational and portfolio use.  
-If deployed publicly, additional security improvements should be added, such as:
-- password hashing
-- input validation
-- SQL injection protection
-- session security enhancement
+## 備註
+本專案主要作為課程學習與作品集展示用途。  
+若未來要正式公開部署，仍建議進一步補強以下安全性內容：
 
-## License
-This project is for learning and portfolio demonstration purposes.
+- 密碼雜湊處理
+- 輸入資料驗證
+- SQL Injection 防護
+- Session 安全性強化
+
+## 授權說明
+本專案僅供學習與作品展示使用。
